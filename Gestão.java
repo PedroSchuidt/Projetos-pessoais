@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-    public class Gestão {
+    public class Main {
         int Id;
         String Nome;
         double salario;
@@ -9,10 +9,10 @@ import java.util.Scanner;
             public static void main(String[] args) {
             
                 Scanner entrada = new Scanner(System.in); 
-                Gestão usuario = new Gestão();
+                Main usuario = new Main();
 
                     System.out.println("Olá Bem-Vindo(a)!");
-                    System.out.println("por favor, Digite seu nome:R");
+                    System.out.println("por favor, Digite seu nome:");
                     usuario.Nome = entrada.nextLine(); 
 
                     System.out.println("Informe seu salário");
